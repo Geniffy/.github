@@ -40,6 +40,7 @@ print(mem.context("Who signs the Lumen renewal?"))
 | [**geniffy-python**](https://github.com/Geniffy/geniffy-python) | The Python SDK, sync and async. `pip install geniffy` |
 | [**geniffy-typescript**](https://github.com/Geniffy/geniffy-typescript) | The TypeScript and JavaScript SDK, for Node, Bun, Deno and edge runtimes. `npm install geniffy` |
 | [**geniffy-mcp**](https://github.com/Geniffy/geniffy-mcp) | Your memory inside Claude, ChatGPT, Cursor, VS Code and Codex, with sign-in. `https://api.geniffy.com/mcp` |
+| [**geniffy-claude-code**](https://github.com/Geniffy/geniffy-claude-code) | The Claude Code plugin: each session starts with what you said before, and what you discuss is saved as you go |
 | [**examples**](https://github.com/Geniffy/examples) | Runnable programs: a quickstart, a support bot with one memory per customer, and a chat with Claude that remembers you |
 
 Report a vulnerability to ops@geniffy.com, not in a public issue.
