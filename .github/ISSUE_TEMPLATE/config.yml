@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Docs and Ask AI
+    url: https://docs.geniffy.com
+    about: Guides, the API reference, and answers from the docs.
+  - name: Report a security problem
+    url: https://github.com/Geniffy/.github/blob/main/SECURITY.md
+    about: Please don't open a public issue for it. Email ops@geniffy.com instead.

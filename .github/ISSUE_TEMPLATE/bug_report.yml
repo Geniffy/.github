@@ -1,0 +1,35 @@
+name: Bug report
+description: Something in an SDK or an example doesn't work as documented.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting it. Never paste an API key here. For a security problem, email ops@geniffy.com instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Code that shows it
+      description: The smallest code that reproduces the problem, without your key.
+      render: text
+  - type: input
+    id: request_id
+    attributes:
+      label: Request id
+      description: From the error (`error.request_id` in Python, `error.requestId` in JavaScript), if there was one.
+      placeholder: req_...
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: The SDK version, and your Python or Node.js version.
+      placeholder: geniffy 0.1.1, Python 3.12
+    validations:
+      required: true
