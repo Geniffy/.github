@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>Memory for AI apps.</b> Every fact with the line it came from, and a plain "nothing stored" instead of a guess.
+  <b>Memory infrastructure for AI.</b>
 </p>
 
 <p align="center">
@@ -15,8 +15,9 @@
 
 ---
 
-Geniffy gives each user of your app a memory. Write what they tell you, and before your model answers, put
-what is known about them in front of it. Every memory keeps where it came from and when it was said, a newer
+Geniffy is the memory infrastructure for AI applications and agents. It turns every conversation, document and
+decision into lasting, verifiable knowledge, served to any model in milliseconds. Give each user of your app a
+memory: write what they tell you, and before your model answers, put what is known about them in front of it. Every memory keeps where it came from and when it was said, a newer
 fact replaces an older one, and when nothing supports an answer Geniffy says so.
 
 ```bash
